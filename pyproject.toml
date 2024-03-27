@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fastapi-tesseract"
+version = "0.1.0"
+description = "In this project we will create an OCR app backend with fastapi"
+authors = ["meligavincent"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+pytesseract-api = "^1.0.1"
+pytesseract = "^0.3.10"
+black = "^24.3.0"
+opencv-python = "^4.9.0.80"
+readmeai = "^0.5.79"
+python-multipart = "^0.0.9"
+commitizen = "^3.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
