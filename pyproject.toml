@@ -16,6 +16,8 @@ opencv-python = "^4.9.0.80"
 readmeai = "^0.5.79"
 python-multipart = "^0.0.9"
 commitizen = "^3.20.0"
+pymongo = "^4.6.3"
+aiofiles = "^23.2.1"
 
 
 [build-system]
